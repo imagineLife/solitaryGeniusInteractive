@@ -3,6 +3,10 @@
 	box-sizing: border-box;
 }
 
+h1, sub{
+	display: inline-block;
+}
+
 .label{
 	text-anchor: right;
 }
