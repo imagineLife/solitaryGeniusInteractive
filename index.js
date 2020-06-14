@@ -52,7 +52,7 @@ prepData('data.json').then(data => {
 		width: w
 	})
 
-	let legendYTrans = (w > 375) ?  h - 125 : h - 75;
+	let legendYTrans = (w > 375) ?  h - 155 : h - 105;
 	let gWrapper = appendToParent(svgWrapper, 'g', 'gWrapper', `translate(${w/2},${h/2})`)
 	let labelGWrapper = svgWrapper.append('g').attr('class', 'labelWrapperG')
 	let legendWrapper = appendToParent(svgWrapper, 'g', 'legendWrapper', `translate(20,${legendYTrans})`)
