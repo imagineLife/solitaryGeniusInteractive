@@ -22,8 +22,8 @@ const chartDiv = d3.select("#chart");
 const { width, widthLessMargins } = getWidthAndHeight("chart", margin)
 
 const w = width - 20; 
-let h = (w < 350) ? 460 : 
-		(w > 351 && w <= 375) ? 600 : 690;
+let h = (w < 350) ? 400 : 
+		(w > 351 && w <= 375) ? 460 : 640;
 
 let positions = {
 	center : w * .5,
